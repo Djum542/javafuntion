@@ -1,4 +1,4 @@
-public class Buoi4 extends  Animal {
+public class Buoi4<cat> extends  Animal {
     public static void main(String[] args) {
         // class and object
         // Truyền tham trị/ chỉ dùng cho kiểu nguyên thủy
@@ -23,6 +23,9 @@ public class Buoi4 extends  Animal {
         meo.setWeight(Float.parseFloat("3.5f"));
     }
 Animal cat = new Cat();
-    System.out.println(cat);
 
+    public void setCat(Animal cat) {
+        this.cat = cat;
+        System.out.println(cat);
+    }
 }

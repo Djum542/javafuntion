@@ -11,4 +11,12 @@ public class Cat extends Animal {
     public Cat(){
         super();
     }
+
+    @Override
+    public void showInfo() {
+        super.showInfo();
+        System.out.println("color : green");
+    }
+
+
 }
